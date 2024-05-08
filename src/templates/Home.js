@@ -1,4 +1,5 @@
 import React from "react";
+import "./Home.css"
 
 function Home(){
     return(
@@ -26,6 +27,7 @@ function Home(){
   </button>
 </div>
 <br/>
+<div class="parallax">
 <div className="container" style={{display:"flex"}}>
     <img src="https://buffer.com/library/content/images/2023/10/free-images.jpg" style={{height:"200px"}} alt="..."/>
     <br/>
@@ -72,7 +74,7 @@ function Home(){
     </div>
   </div>
 </div>
-
+</div>
 </div>
         </div>
         </>
